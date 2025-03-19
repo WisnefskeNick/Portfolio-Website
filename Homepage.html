@@ -11,33 +11,36 @@
 </head>
 
 	<header>
-		<nav class="navbar navbar-expand-lg bg-dark">
+		<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
   			<div class="container-fluid">
-    			<a class="navbar-brand" href="#">Nicholas Wisnefske Portfolio</a>
-    			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    			<a class="navbar-brand" href="#">Navbar</a>
+    			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
       				<span class="navbar-toggler-icon"></span>
     			</button>
-    			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-      				<ul class="navbar-nav">
-        				<li class="nav-item">
-          					<a class="nav-link active" aria-current="page" href="Homepage.html">Home</a>
-        				</li>
-        				<li class="nav-item">
-         					<a class="nav-link" href="#">About Me</a>
-        				</li>
-        				<li class="nav-item">
-          					<a class="nav-link" href="#">Career Path</a>
-        				</li>
-        				<li class="nav-item dropdown">
-          				<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
-						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="#">Java Projects</a></li>
-							<li><a class="dropdown-item" href="#">SQL Projects</a></li>
-							<li><a class="dropdown-item" href="#">Web Development Projects</a></li>
-						</ul>
-        				</li>
-      				</ul>
-    			</div>
+    		<div class="collapse navbar-collapse" id="navbarColor02">
+      		<ul class="navbar-nav me-auto">
+        		<li class="nav-item">
+          			<a class="nav-link active" href="#">Home</a>
+        		</li>
+        		<li class="nav-item">
+          			<a class="nav-link" href="#">About Me</a>
+        		</li>
+        		<li class="nav-item">
+          			<a class="nav-link" href="#">Extracuicular Activities</a>
+        		</li>
+        		<li class="nav-item dropdown">
+          			<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">School Projects</a>
+          			<div class="dropdown-menu">
+						<p>Programming Projects</p>
+            			<a class="dropdown-item" href="#">Java</a>
+            			<a class="dropdown-item" href="#">SQL</a>
+            			<a class="dropdown-item" href="#">Web Design / Development</a>
+            			<div class="dropdown-divider"></div>
+            			<a class="dropdown-item" href="#">Separated link</a>
+          			</div>
+        		</li>
+      		</ul>
+    		</div>
   			</div>
 		</nav>
 	</header>
